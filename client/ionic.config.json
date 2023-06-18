@@ -1,0 +1,7 @@
+{
+  "name": "Arke",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

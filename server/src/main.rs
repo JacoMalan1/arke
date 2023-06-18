@@ -13,7 +13,7 @@ async fn process_socket(mut socket: TcpStream) {
         return;
     }
 
-    let mut buffer = [0u8; 512];
+    let mut buffer = [0u8; 4096];
     if let Err(err) = socket.read(&mut buffer).await {
         eprintln!("Failed to read from socket: {err:?}");
         return;

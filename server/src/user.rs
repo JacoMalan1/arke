@@ -1,1 +1,3 @@
-pub struct User {}
+pub struct User {
+    identity_key: openssl,
+}
