@@ -1,3 +1,6 @@
+use libsignal_protocol::PreKeyBundle;
+
+#[allow(dead_code)]
 pub struct User {
-    identity_key: openssl,
+    pre_key_bundle: PreKeyBundle,
 }
